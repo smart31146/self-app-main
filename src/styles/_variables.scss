@@ -1,0 +1,79 @@
+@import "./fonts";
+
+// fonts
+$happyMonkey-regular: "Happy Monkey Regular", sans-serif;
+$inter-regular: "Inter Regular", sans-serif;
+$inter-bold: "Inter Bold", sans-serif;
+$italiana-regular: "Italiana Regular", serif;
+
+// font sizes
+$hero_title: 70px;
+$title_lg: 50px;
+$title_md: 40px;
+$title_sm: 30px;
+$text_lg: 28px;
+$text_md: 20px;
+$text_sm: 18px;
+
+// colors
+$black: #000000;
+$gray: #d9d9d9;
+$background_gray: #e4e3e782;
+$background_solid_gray: rgb(228, 227, 231);
+$background_dark_gray: #494949;
+$white: #ffffff;
+
+$green: #72a9b0;
+$dark_green: #053b47;
+
+$light_skin: #faf3ee;
+$skin: #ffeae0;
+$dark_skin: #ffc1a2;
+
+$salmon: #e8bdab;
+
+$light_yellow: #fef6eb;
+$mid_yellow: #fae9d2;
+$yellow: #f9d290;
+
+// buttons
+$button_skin: #f0c5b0;
+$button_border_orange: #cb5821;
+
+$button_yellow: #e8b867;
+$button_border_brown: #a96f0c;
+
+$button_brown: #eb9266;
+$button_border_brown: #a84716;
+
+$button_gray: #cfc1b6;
+$button_border_gray: #75685d;
+
+$light_green: #e4efea;
+
+// wellness
+
+$light_blue: #c8deff;
+$lavender: #7a8dc8;
+$blue: #1b5bbc;
+$dark_blue: #051f47;
+
+$dark_olive: #3d4c48;
+
+
+$woamnTheme:(
+    primary:rgb(241, 138, 141),
+    accent: rgb(152,150,240),
+    light:rgb(246, 237, 234) 
+);
+$simpleTheme:(
+    primary:black,
+    accent: #00C3B5,
+    light: #F6F6F6
+);
+$kidsTheme:(
+    primary:#042B60,
+    accent: #C20000,
+    light: #20B2AA,
+    light-accent:#C16452
+);

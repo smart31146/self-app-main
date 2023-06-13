@@ -1,0 +1,41 @@
+@import "../styles/variables";
+
+.progress_bar {
+  width: 260px;
+  height: 62px;
+  background-color: var(--primary);
+  color: var(--light);
+  border-radius: 30px;
+  border: 1px solid $dark_green;
+  position: relative;
+  overflow: hidden;
+  border: none;
+
+  .fill {
+    background-color: $green;
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  span {
+    font-family: $inter-bold;
+    font-size: $title_sm;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.wellness {
+  background-color: $dark_blue;
+}

@@ -1,0 +1,24 @@
+.Button {
+  padding: 16px 28px;
+  border: thin solid #1b5bbc;
+  background: var(--primary);
+  color: var(--light);
+  font-weight: bold;
+  border-radius: 15px;
+  min-width: 200px;
+  border: none;
+}
+
+.Button-primary {
+  color: var(--light);
+  border-color: #051f47;
+  background: var(--accent);
+  border: none;
+}
+
+.Button-disabled {
+  color: white;
+  border-color: #898989;
+  background: #898989;
+  cursor: not-allowed;
+}

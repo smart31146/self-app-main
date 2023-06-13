@@ -1,0 +1,57 @@
+.WellnessDashboardTests {
+  background-color: #F8F6F4;
+  padding: 32px 0;
+  font-family: "Inter Regular";
+}
+
+.WellnessDashboardTests-container {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.WellnessDashboardTests-categoryContainer {
+  border-bottom: thin solid #ccc;
+  padding: 16px 8px;
+}
+
+.WellnessDashboardTests-categoryContainer:nth-of-type(2n) {
+  background-color: #efefef;
+}
+
+.WellnessDashboardTests-categoryContainer:last-of-type {
+  border-bottom: none;
+}
+
+.WellnessDashboardTests-categoryTitle {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.WellnessDashboardTests-categoryTestsContainer {
+  padding-left: 16px;
+}
+
+.WellnessDashboardTests-categoryTest {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+}
+
+.WellnessDashboardTests-categoryTest>* {
+  flex: 1;
+  text-align: center;
+}
+
+.WellnessDashboardTests-categoryTest>*:first-of-type {
+  flex: 2;
+  text-align: left;
+}
+
+.WellnessDashboardTests-categoryTest>*:last-of-type {
+  text-align: right;
+}
+
+.WellnessDashboardTests-testLink {
+  color: var(--primary);
+  font-weight: 600;
+}

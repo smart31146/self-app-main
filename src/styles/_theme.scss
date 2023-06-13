@@ -1,0 +1,12 @@
+@import "./variables";
+@import "./mixins";
+
+.theme-Woman{
+    @include spread-map($woamnTheme)
+}
+.theme-Simple{
+    @include spread-map($simpleTheme)
+}
+.theme-Kids{
+    @include spread-map($kidsTheme)
+}

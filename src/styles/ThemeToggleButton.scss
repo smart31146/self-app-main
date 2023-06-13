@@ -1,0 +1,77 @@
+@import "./variables";
+
+.theme-toggle-button {
+    position: fixed;
+    right: 10px;
+    bottom: 50px;
+
+    z-index: 1;
+
+    &>button {
+        width:40px;
+        height:40px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 20px;
+        border:0px;        
+
+        &:hover{
+         background-color: #d8e0e1;   
+        }
+
+    }
+
+    .theme-list {
+        position: absolute;
+        bottom:calc(100% + 10px);
+        right:10px;
+        
+        width: 170px;
+        padding: 10px;
+        display: none;
+        border-radius: 10px;
+        
+        background-color: #e3e3e39c;
+
+        &.open {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .color-item {
+            width: 50px;
+            height: 50px;
+            border:2px solid transparent;
+                                    
+            &.active{
+                border:2px solid 
+            }
+
+            &.Woman {
+                background: rgb(241, 138, 141);
+                color: white;
+                border-radius: 25px;
+            }
+
+            &.Simple {
+                background: black;
+                color: white;
+                border-radius: 25px;
+            }
+
+            &.Kids {
+                background: #042B60;
+                color: white;
+                border-radius: 25px;
+            }
+        }
+
+
+    }
+
+
+}
